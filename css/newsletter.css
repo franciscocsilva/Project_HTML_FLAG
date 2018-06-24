@@ -1,0 +1,191 @@
+.wrapper{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+nav li a{
+	width: 25%;
+	color: white;
+	font-family: blizz;
+	font-size: 3vh;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+}
+
+main{
+	width: 100%;
+	height: 100%;
+	background-position: bottom;
+	float: left;
+}
+
+.col1{
+	font-family: blizz;
+	font-size: 5vh;
+	color: white;
+	float: left;
+	margin-top: 10%;
+	width: 50%;
+	height: 500px;
+	text-align: center;
+}
+
+.col1 img{
+	width: 186px;
+	height: 253px;
+	margin-top: 20px;
+}
+
+.col2{
+	width: 50%;
+	height: 500px;
+	margin-top: 10%;
+	float: left;
+}
+
+.ff9menu{
+	width: 400px;
+	height: 250px;
+	border: solid white 4px;
+	border-radius: 10px;
+	background: #2B447F;
+	background-image: url(../imgs/menublue.jpg);
+	float: left;
+	margin-left: 100px;
+	color: white;
+	font-family: blizz;
+}
+
+#mensagem_de_erro{
+	width: 400px;
+	height: 30px;
+	color: white;
+	font-family: blizz;
+	border: solid white 4px;
+	border-radius: 10px;
+	background: #2B447F;
+	background-image: url(../imgs/menublue.jpg);
+	margin-top: 10px;
+	margin-left: 100px;
+	float: left;
+	text-align: center;
+	padding-top: 15px;
+	display: none;
+}
+
+.wrapper form{
+	padding-top: 20px;
+	
+}
+
+.wrapper main li{
+	width: 100%;
+	margin-top: 20px;
+}
+
+.wrapper li label{
+	width: 100px;
+	display: block;
+	float: left;
+	text-align: right;
+	padding-right: 15px;
+}
+
+#submitbtn{
+	float: right;
+}
+
+.erro_assinalado {
+	color: red;
+	vertical-align: top;
+	display: none;
+} 
+
+.submitbtn{
+    margin: 0 40%;
+}
+
+@media screen and (max-width: 1150px){
+
+	.col1{
+		width: 100%;
+		height: 500px;
+		font-size: 56px;
+	}
+
+	.col2{
+		width: 100%;
+		height: 350px;
+		margin: 5% 0;
+	}
+
+	.ff9menu{
+		width: 50%;
+		margin: 0 25%;
+	}
+
+	#mensagem_de_erro{
+		width: 50%;
+		margin: 15px 25%;
+	}
+}
+
+@media screen and (max-width: 800px){
+
+	.col1{
+		width: 100%;
+		height: 500px;
+		font-size: 56px;
+	}
+
+	.col2{
+		width: 80%;
+		height: 350px;
+		margin: 5% 10%;
+	}
+
+	.col2 .ff9menu{
+		width: 80%;
+		margin: 0 10%;
+		text-align: left;
+	}
+
+	#mensagem_de_erro{
+		width: 80%;
+		margin: 15px 10%;
+	}	
+}
+
+@media screen and (max-width: 640px){
+
+	.col2{
+		height: 450px;
+		width: 100%;
+		margin: 0;
+	}
+
+	#mensagem_de_erro{
+		width: 100%;
+		height: 40px;
+		margin: 20px 0;
+	}
+
+	.col1{
+		height: 800px;
+	}
+
+	.col2 .ff9menu{
+		height: 300px;
+		width: 100%;
+		margin: 0;
+		text-align: center;
+	}
+
+	.wrapper li label{
+		width: 100%;
+		float: left;
+		text-align: center;
+	}
+}

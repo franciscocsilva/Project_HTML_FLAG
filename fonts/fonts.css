@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'blizz';
+    src: url('bliz-quadrata.woff') format('woff');   
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'menufixe';
+    src: url('russoone-regular-webfont.woff2') format('woff2'),
+         url('russoone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'oriental1';
+    src: url('sedgwickavedisplay-regular-webfont.woff2') format('woff2'),
+         url('sedgwickavedisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

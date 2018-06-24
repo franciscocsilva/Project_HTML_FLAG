@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Panda's Palace</title>
+	
+	<meta charset="utf-8">
+	<meta name="description" content="Projecto 1">
+	<meta name="keywords" content="Jogos, Magic, MTG, D&D, Dungeons and Dragons, Hearthstone, HS">
+	<meta name="author" content="Francisco Silva">
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/colorbox.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="shortcut icon" href="https://usepanda.com/favicon.ico">
+	
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
+	<script type="text/javascript" src="js/main.js" ></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header> <!--HEADER -->
+			<h2><a href="index.html">PANDA's PALACE</a></h2>
+			<nav class="menu-nav"> <!-- MENU NAV -->
+				<ul>
+					<li><a href="events.html">Eventos</a></li>
+					<li><a href="community.html">Comunidade</a></li>
+					<li><a href="newsletter.html">Newsletter</a></li>
+					<li><a href="contacts.html">Contactos</a></li>
+				</ul>
+		 	</nav> <!-- FIM MENU NAV -->
+
+		 	<nav class="menu-mobile"> <!-- MENU MOBILE -->
+				
+				<i class="fa fa-bars" id="menu-bars" aria-hidden="true" onclick="mostraMenuMobile()"></i>
+
+				<div class="menu-mobile-content">
+					<ul id="menu-mobile-content">
+						<li><a href="events.html">Eventos</a></li><br>
+						<li><a href="community.html">Comunidade</a></li><br>
+						<li><a href="newsletter.html">Newsletter</a></li><br>
+						<li><a href="contacts.html">Contactos</a></li><br>
+					</ul>
+				</div>
+			</nav> <!-- FIM MENU MOBILE -->
+		</header><!-- FIM HEADER -->
+		
+		<main> <!-- CONTENT -->
+			<div class="bemvindo">
+				<h3>Bem Vindo</h3>
+				<video controls="controls" autoplay="" loop="" muted="">
+					<source src="videos/kingofcards.mp4" type="video/mp4">
+				</video>
+			</div>
+
+			<div> 
+				<h3>Jogos</h3>
+			</div>
+
+			<div class="col"> <!-- MENU JOGOS -->
+				<div class="moldura" id="moldura">
+					<a class="moldura1" href="videos/video1.html">
+						<img src="imgs/liliana2017.jpg" alt="Magic The Gathering" title="Magic The Gathering">  
+					</a>
+				</div>		
+				<img src="imgs/logo-mtg.png" id="mtglogo" alt="Magic The Gathering Logo" title="Magic The Gathering Logo">	
+			</div>
+
+			<div class="col">
+				<div class="moldura">
+					<a class="moldura2" href="videos/video2.html">		
+						<img src="imgs/dda.jpg" alt="Dungeons & Dragons" title="Dungeons & Dragons">
+					</a> 
+				</div>
+				<img src="imgs/Dungeons_&_Dragons_5th_Edition_logo.svg.png" id="ddlogo" alt="Dungeons & Dragons Logo" title="Dungeons & Dragons Logo">
+			</div>
+
+			<div class="col">
+				<div class="moldura ">
+					<a class="moldura3" href="videos/video3.html">		
+						<img src="imgs/lichking.jpg" alt="Hearthstone" title="Hearthstone"> 
+					</a> 
+				</div>
+				<img src="imgs/game-logo-hearthstone.png" id="hslogo" alt="Hearthstone Logo" title="Hearthstone Logo">
+			</div> <!-- FIM MENU JOGOS-->
+		</main> <!-- FIM CONTENT -->
+		
+		<footer> <!-- FOOTER -->
+			<div class="info"> 
+				<h3>Horário</h3>
+				Segunda a Sexta-feira: <br>
+				Das 10:00h às 23:00h. <br>
+				Sábado e Domingo: <br>
+				Das 13:00h às 23:00h.
+			</div>
+
+			<div class="info"> 
+				<h3>Segue-nos em:</h3>
+				<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" id="twitter" aria-hidden="true" title="Twitter"></i></a>
+				<a href="https://www.facebook.com/FLAG.PT" target="_blank"><i class="fa fa-facebook-square" id="facebook" aria-hidden="true" title="Facebook"></i></a>
+				<a href="https://go.twitch.tv/" target="_blank"><i class="fa fa-twitch" id="twitch" aria-hidden="true" title="Twitch"></i></a> 
+				<a href="https://www.instagram.com/flag.pt/" target="_blank"><i class="fa fa-instagram" id="instagram" aria-hidden="true" title="Instagram"></i></a>
+				<a href="https://www.youtube.com/channel/UCSeqib6RmkmV_N1LuxRb6ew" target="_blank"><i class="fa fa-youtube-play" id="youtube" aria-hidden="true" title="Youtube"></i></a>
+			</div>
+
+			<div class="info"> 
+				<h3>Morada</h3>
+				Praça Duque de Saldanha, <br>
+				1050-094 <br>
+				Lisboa
+			</div>
+		</footer> <!-- FIM FOOTER -->
+	</div>
+</body>
+</html>

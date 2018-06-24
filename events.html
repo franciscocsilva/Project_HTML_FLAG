@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eventos - Panda's Palace</title>
+	
+	<meta charset="utf-8">
+	<meta name="description" content="Projecto 1">
+	<meta name="keywords" content="Jogos, Magic, MTG, D&D, Dungeons and Dragons, Hearthstone, HS">
+	<meta name="author" content="Francisco Silva">
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">	
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/events.css">
+	<link rel="shortcut icon" href="https://usepanda.com/favicon.ico">
+		
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
+	<script type="text/javascript" src="js/events.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header> <!--HEADER -->
+			<h2><a href="index.html">PANDA's PALACE</a></h2>
+			<nav class="menu-nav"> <!-- MENU NAV -->
+				<ul>
+					<li><a href="events.html">Eventos</a></li>
+					<li><a href="community.html">Comunidade</a></li>
+					<li><a href="newsletter.html">Newsletter</a></li>
+					<li><a href="contacts.html">Contactos</a></li>
+				</ul>
+		 	</nav> <!-- FIM MENU NAV -->
+
+		 	<nav class="menu-mobile"> <!-- MENU MOBILE -->
+				
+				<i class="fa fa-bars" id="menu-bars" aria-hidden="true" onclick="mostraMenuMobile()"></i>
+
+				<div class="menu-mobile-content">
+					<ul id="menu-mobile-content">
+						<li><a href="events.html">Eventos</a></li><br>
+						<li><a href="community.html">Comunidade</a></li><br>
+						<li><a href="newsletter.html">Newsletter</a></li><br>
+						<li><a href="contacts.html">Contactos</a></li><br>
+					</ul>
+				</div>
+			</nav> <!-- FIM MENU MOBILE -->
+		</header><!-- FIM HEADER -->
+
+		<main> <!-- CONTENT -->
+			<div class="col-1">	<!-- CALENDARIO -->
+				<div class="calendario">
+					<div class="linha-mes">
+						<button onclick=""><i class="fa fa-reply" aria-hidden="true"></i></button>
+
+						<div class="cal-mes"> <h3> OUTUBRO </h3></div>
+
+						<button onclick=""><i class="fa fa-share" aria-hidden="true"></i></button>		
+					</div>
+						
+					<table id="calendario">
+						<tr id="linha-semana">
+							<td>SEGUNDA</td>
+							<td>TERÇA</td>
+							<td>QUARTA</td>
+							<td>QUINTA</td>
+							<td>SEXTA</td>
+							<td>SÁBADO</td>
+							<td>DOMINGO</td>
+						</tr>			
+						<tr class="dias">
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>1</td>
+						</tr>				
+						<tr class="dias">
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+							<td>5</td>
+							<td>6</td>
+							<td>7</td>
+							<td>8</td>
+						</tr>			
+						<tr class="dias">
+							<td>9</td>
+							<td>10</td>
+							<td>11</td>
+							<td>12</td>
+							<td>13</td>
+							<td>14</td>
+							<td>15</td>
+						</tr>			
+						<tr class="dias">
+							<td>16</td>
+							<td>17</td>
+							<td>18</td>
+							<td>19</td>
+							<td>20</td>
+							<td>21</td>
+							<td>22</td>
+						</tr>				
+						<tr class="dias">
+							<td>23</td>
+							<td>24</td>
+							<td>25</td>
+							<td>26</td>
+							<td>27</td>
+							<td>28</td>
+							<td>29</td>
+						</tr>				
+						<tr class="dias">
+							<td>30</td>
+							<td>31</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</table>
+				</div>
+			</div> <!-- FIM CALENDARIO -->
+
+			<div class="col-2"> <!-- EVENTOS -->
+				<div class="lista-eventos">
+					<p>Eventos: </p>
+					<ul>
+						<li>5 Outubro - ENCERRADO</li>
+						<li>Sextas: Friday Night Magic</li>
+						<li>14-15: HS Open Circuit</li>
+						<li>28-29: Dungeon Crawling</li>
+					</ul>
+				</div>
+			</div> <!-- FIM EVENTOS -->
+		</main> <!-- FIM CONTENT -->
+		
+		<footer> <!-- FOOTER -->
+			<div class="info"> 
+				<h3>Horário</h3>
+				Segunda a Sexta-feira: <br>
+				Das 10:00h às 23:00h. <br>
+				Sábado e Domingo: <br>
+				Das 13:00h às 23:00h.
+			</div>
+
+			<div class="info"> 
+				<h3>Segue-nos em:</h3>
+				<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" id="twitter" aria-hidden="true" title="Twitter"></i></a>
+				<a href="https://www.facebook.com/FLAG.PT" target="_blank"><i class="fa fa-facebook-square" id="facebook" aria-hidden="true" title="Facebook"></i></a>
+				<a href="https://go.twitch.tv/" target="_blank"><i class="fa fa-twitch" id="twitch" aria-hidden="true" title="Twitch"></i></a> 
+				<a href="https://www.instagram.com/flag.pt/" target="_blank"><i class="fa fa-instagram" id="instagram" aria-hidden="true" title="Instagram"></i></a>
+				<a href="https://www.youtube.com/channel/UCSeqib6RmkmV_N1LuxRb6ew" target="_blank"><i class="fa fa-youtube-play" id="youtube" aria-hidden="true" title="Youtube"></i></a>
+			</div>
+
+			<div class="info"> 
+				<h3>Morada</h3>
+				Praça Duque de Saldanha, <br>
+				1050-094 <br>
+				Lisboa
+			</div>
+		</footer> <!-- FIM FOOTER -->
+	</div>
+</body>
+</html>
